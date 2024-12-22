@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3F2F8;
+}
+
+body {
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container header .logo span {
+  color: purple;
+}
+.container header nav span {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #666;
+}
+.container main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.container main .content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.container main .content h1 span {
+  display: block;
+  font-size: 2rem;
+  color: purple;
+}
+.container main .content .rotate-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: purple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container main .content .rotate-btn:hover {
+  background: #800080;
+}
+.container main .content p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+.container main .shoe img {
+  max-width: 500px;
+  transform: rotate(20deg);
+}
+.container footer {
+  margin-top: 50px;
+}
+.container footer .thumbnails {
+  display: flex;
+  gap: 10px;
+}
+.container footer .thumbnails img {
+  width: 100px;
+  cursor: pointer;
+}
+.container footer .thumbnails img:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
